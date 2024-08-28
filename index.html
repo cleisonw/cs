@@ -158,27 +158,21 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 </head>
 <body>
     <h1>
-    <audio id="myAudio" controls>
+    <audio id="audioPlayer" autoplay>
         <source src="images/Justin Timberlake - Mirrors (Official Video).mp3" type="audio/mpeg">
-        Seu navegador não suporta o elemento de áudio.
+        Seu navegador não suporta a tag de áudio.
     </audio>
 
     <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const audio = document.getElementById('myAudio');
+        window.onload = function() {
+            var audio = document.getElementById("audioPlayer");
             audio.currentTime = 54; // Define o tempo inicial em 54 segundos
 
             // Tenta reproduzir o áudio automaticamente
-            audio.play().catch(error => {
-                // Se a reprodução automática falhar, loga o erro e tenta iniciar após um breve atraso
-                console.log('Falha na reprodução automática, tentando novamente...');
-                setTimeout(() => {
-                    audio.play().catch(error => {
-                        console.error('Não foi possível iniciar a reprodução:', error);
-                    });
-                }, 1000); // Atraso de 1 segundo
+            audio.play().catch(function(error) {
+                console.log('Autoplay foi bloqueado');
             });
-        });
+        };
     </script>
 </body>
 </html>
