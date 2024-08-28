@@ -1,0 +1,20 @@
+.elementor-110 .elementor-element.elementor-element-bdb2aa9{--display:flex;--background-transition:0.3s;}.elementor-110 .elementor-element.elementor-element-8ebd577{color:#FFFFFF;font-family:"Roboto", Sans-serif;font-weight:300;}.elementor-110 .elementor-element.elementor-element-02514ad .elementor-wrapper{--video-aspect-ratio:1.77777;}body.elementor-page-110:not(.elementor-motion-effects-element-type-background), body.elementor-page-110 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#030D21;}@media(max-width:767px){.elementor-110 .elementor-element.elementor-element-49e6cfe{--e-image-carousel-slides-to-show:1;}.elementor-110 .elementor-element.elementor-element-49e6cfe > .elementor-widget-container{margin:38px 0px 0px 0px;}.elementor-110 .elementor-element.elementor-element-49e6cfe .elementor-image-carousel-wrapper .elementor-image-carousel .swiper-slide-image{border-radius:16px 16px 16px 16px;}.elementor-110 .elementor-element.elementor-element-83e57c1.elementor-element{--align-self:center;}.elementor-110 .elementor-element.elementor-element-8ebd577 > .elementor-widget-container{padding:6px 6px 6px 6px;}.elementor-110 .elementor-element.elementor-element-8ebd577{text-align:center;font-size:14px;}}/* Start custom CSS for html, class: .elementor-element-83e57c1 */.contador-data-hora {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #151A2A; /* Fundo escuro */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.contador-data-hora p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.contador-data-hora .icone-coracao {
+    display: block;
+    font-size: 24px;
+    margin-top: 10px;
+}/* End custom CSS */
